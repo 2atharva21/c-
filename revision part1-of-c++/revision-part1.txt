@@ -1,0 +1,17 @@
+the basic of memeory units
+1 .
+bits : it is a smallest units of computer 
+storage system .
+2.
+bytes : 1 bytes are equal to 8bytes 
+data types :
+there are three data types in c++
+1) primary data types.
+2)derived data types.
+3)user defined data types.
+the primary data types:
+1)int :int store the 4 bytes memeory
+2)char :char store the 1 bytes memeory
+3)floates:floates store the 4 bytes in memeory
+4)bool:boolan check the condition is valied or not and provided a out put .
+it can store the two value within as true or false wheather a  true it gives 1 and false it gives 0
