@@ -1,0 +1,8 @@
+the basic of pattern priting are :
+row and colums 
+row are denoted by n;
+colums are denoted by m;
+where the nested loops are used in it :
+to priting a row we a loop of i 
+to priting a colums we a loop of j
+
