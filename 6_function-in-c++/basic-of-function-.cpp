@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-
-    void welcome(){
-        cout<<"welcome to here ";
-    }
-int main (){
-    welcome();
+void name(){
+    cout<<" atharva";
+}
+int main(){
+ name();
 }
