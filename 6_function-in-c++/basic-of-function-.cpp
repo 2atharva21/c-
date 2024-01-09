@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
-void name(){
-    cout<<" atharva";
+void name(string a ){
+    cout<<"my name  is "<<a<<endl;
+
 }
 int main(){
- name();
+ name(" atharva");
 }
