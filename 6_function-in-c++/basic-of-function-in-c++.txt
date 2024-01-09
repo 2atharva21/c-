@@ -1,0 +1,7 @@
+the function are a simple method to reuse a any part of code :
+how to declare function:
+return type function_name(parameter1 ,parameter2..){
+    statement;
+}
+ function_name:it tell function functinality and there use and purpose
+ 
