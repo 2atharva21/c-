@@ -1,0 +1,19 @@
+array is a data structure that store a data in
+sequential formate and array are a  store in continuous memory structure .
+syntax of array declaration :
+data types=int  ; array name =array; [array size]=4;
+int array[4];
+memory allocation are array:
+continuous block of memory:
+[1,2,3,4,5]=int have a 4 bits 
+and float have a 4 bits 
+char have a 1 bits : 
+[104,108,112,116,120];
+types of array:
+one dimensional array:
+multipledimensional array:
+one dimensional array:
+declaration of one dimensional array:
+every array declaration start with 0th index:
+array[index number of array];
+array[0][1];
