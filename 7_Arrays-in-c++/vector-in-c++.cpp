@@ -27,7 +27,6 @@ int main(){
     v.resize(11);
     cout<<"size :"<<v.size()<<endl;
     cout<<"capacity:"<<v.capacity()<<endl;
- 
     v.pop_back();
     v.pop_back();
     
