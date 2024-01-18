@@ -1,1 +1,1 @@
-#include <algorithm>
+array[i]!=largest_number
