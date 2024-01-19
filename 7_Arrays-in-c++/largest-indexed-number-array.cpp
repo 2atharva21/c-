@@ -1,24 +1,15 @@
 #include <iostream>
 using namespace std;
-#include <climits>
-
-int largest_of_array(int array[],int size){
-    int largest_number=INT_MIN;
-    int second_number=INT_MIN;
+int largest_number(int array[],int size){
+    int array_number=array[0];
     for(int i=0;i<size;i++){
-        if(array[i]>largest_number)
-            largest_number=array[i];  
+        if(array[i]>array_number)
+        array_number=array[i];
     }
-    for(int i=0 ;i<size;i++){
-        if(array[i]<second_number && array[i]!=largest_number);{
-        second_number=array[i];
-    }
-    }
-    return second_number;
+    return array_number;
 }
 int main (){
-    int array[]={2,3,5,7,6,1,7};
-    int size =7;
-    cout<<"number is a "<<largest_of_array(array,size);
-    // cout<<"number is a "<<largest_of_array(array,size);
+int array[]={1,7,3,4,5,6};
+int size =6;
+cout<<"the largest number is a :"<<largest_number(array,size);
 }
