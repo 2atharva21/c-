@@ -1,1 +1,2 @@
-array[i]!=largest_number
+
+    return 0;

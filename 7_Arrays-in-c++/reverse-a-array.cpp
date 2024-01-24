@@ -1,15 +1,17 @@
 #include <iostream>
-#include <algorithm>
-using namespace std ;
+using namespace std;
+void reverse(int array[],int size){
+int start =0;
+int end =size-1;
+while(start<=end){
+    swap(array[start],array[end]);
+    start++;
+    end-;
+}
+}
+
 int main (){
-    int array[]={1,2,3,4,5};
-    int size=sizeof(array)/sizeof(array[0]);
-     reverse(array,array-size);
-
-    cout << "Reversed array is: ";
-    for(int i = 0; i < size; i++)
-        cout << array[i] << " ";
-
-    return 0;
-    
+    int array[]{1,2,3,4,5,6};
+    int size =6;
+    cout<<reverse(array,size);
 }
