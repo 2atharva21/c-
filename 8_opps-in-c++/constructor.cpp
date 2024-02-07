@@ -1,9 +1,5 @@
-//this instalise in class 
-//   this used in class name :
-//types of constructor :
-//1 :default constructor:
-//2 :parameteried constructor:
-//3: copy constructor:
+//A constructor is a special method in a class in object-oriented programming. Here are some key points about constructors:
+
 #include <iostream>
 using namespace std;
 class retanglur {
