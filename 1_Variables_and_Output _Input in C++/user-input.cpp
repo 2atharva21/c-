@@ -7,5 +7,5 @@ cin>>a;
 cout<<" enter the second set of number of apples :";
 cin>>b;
 int sum=a+b;
-cout<<" the number of apple are:"<<sum<<endl;
+cout<<a <<"+"<<b <<"="<<sum<<endl;
 }

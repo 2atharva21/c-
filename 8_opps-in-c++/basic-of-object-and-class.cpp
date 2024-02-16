@@ -4,8 +4,9 @@ class examples{
 public :
 string name ;
 int id;
-int roll;
+int roll;54
 };
+
 int main (){
 examples s1;
 s1.name="atharva zare";
