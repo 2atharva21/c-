@@ -1,25 +1,28 @@
 #include <iostream>
 using namespace std;
-class room{
+class room
+{
 public:
-int lenght ;
-int breath;
-int height;
-int calculate_area(){
-  return lenght *breath;
-}
-int calculate_volume (){
-  return lenght*breath*height;
-}
+  int lenght;
+  int breath;
+  int height;
+  int calculate_area()
+  {
+    return lenght * breath;
+  }
+  int calculate_volume()
+  {
+    return lenght * breath * height;
+  }
 };
-int main (){
-room room1;
-room1.lenght =10;
-room1.breath =20;
-room1.height =20;
-cout<<"sum of all area = "<<room1.calculate_area()<<endl;
-cout<<"sum of all volume = "<<room1.calculate_volume()<<endl;
-
+int main()
+{
+  room room1;
+  room1.lenght = 10;
+  room1.breath = 20;
+  room1.height = 20;
+  cout << "sum of all area = " << room1.calculate_area() << endl;
+  cout << "sum of all volume = " << room1.calculate_volume() << endl;
 }
 // In this program, we have used the Room class and its object room1 to calculate the area and volume of a room.
 

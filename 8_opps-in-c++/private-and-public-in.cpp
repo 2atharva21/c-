@@ -1,32 +1,35 @@
 // Using public and private in C++ Class
 #include <iostream>
 using namespace std;
-class room {
-    public:
+class room
+{
+public:
+    int lenght;
+    int breath;
+    int height;
 
-int lenght;
-int breath;
-int height;
-public :
- void initData(int len,int bre,int hei){
-lenght =len;
-breath=bre;
-height=hei;
- }
-int calculation_area(){
-    return lenght*breath;
-}
-int calculation_volume(){
-    return lenght*breath*height;
-}
-     
-
+public:
+    void initData(int len, int bre, int hei)
+    {
+        lenght = len;
+        breath = bre;
+        height = hei;
+    }
+    int calculation_area()
+    {
+        return lenght * breath;
+    }
+    int calculation_volume()
+    {
+        return lenght * breath * height;
+    }
 };
-int main (){
-room room1;
+int main()
+{
+    room room1;
 
     // pass the values of private variables as arguments
-        room1.initData(425, 308, 192);
+    room1.initData(425, 308, 192);
 
     cout << "Area of Room =  " << room1.calculation_area() << endl;
     cout << "Volume of Room =  " << room1.calculation_volume() << endl;
