@@ -1,2 +1,3 @@
-int a =10;
-int b =20;
+void add (sum_of_number &sum ){
+    sum.z=sum.x+sum.y;
+}
